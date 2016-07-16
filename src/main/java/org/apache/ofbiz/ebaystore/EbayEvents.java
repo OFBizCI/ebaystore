@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.ofbiz.ebaystore;
+package org.apache.ofbiz.ebaystore;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -32,17 +32,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.UtilGenerics;
-import org.ofbiz.base.util.UtilHttp;
-import org.ofbiz.base.util.UtilMisc;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericEntityException;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.util.EntityQuery;
-import org.ofbiz.service.GenericServiceException;
-import org.ofbiz.service.LocalDispatcher;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.UtilGenerics;
+import org.apache.ofbiz.base.util.UtilHttp;
+import org.apache.ofbiz.base.util.UtilMisc;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericEntityException;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.service.GenericServiceException;
+import org.apache.ofbiz.service.LocalDispatcher;
 
 import com.ebay.sdk.ApiContext;
 import com.ebay.sdk.ApiException;

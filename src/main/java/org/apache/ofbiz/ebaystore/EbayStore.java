@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.ofbiz.ebaystore;
+package org.apache.ofbiz.ebaystore;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -43,24 +43,24 @@ import java.util.Map;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableModel;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.UtilDateTime;
-import org.ofbiz.base.util.UtilGenerics;
-import org.ofbiz.base.util.UtilMisc;
-import org.ofbiz.base.util.UtilProperties;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.base.util.UtilXml;
-import org.ofbiz.ebay.EbayHelper;
-import org.ofbiz.ebay.ProductsExportToEbay;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericEntityException;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.util.EntityQuery;
-import org.ofbiz.service.DispatchContext;
-import org.ofbiz.service.GenericServiceException;
-import org.ofbiz.service.LocalDispatcher;
-import org.ofbiz.service.ModelService;
-import org.ofbiz.service.ServiceUtil;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.UtilDateTime;
+import org.apache.ofbiz.base.util.UtilGenerics;
+import org.apache.ofbiz.base.util.UtilMisc;
+import org.apache.ofbiz.base.util.UtilProperties;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.base.util.UtilXml;
+import org.apache.ofbiz.ebay.EbayHelper;
+import org.apache.ofbiz.ebay.ProductsExportToEbay;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericEntityException;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.service.DispatchContext;
+import org.apache.ofbiz.service.GenericServiceException;
+import org.apache.ofbiz.service.LocalDispatcher;
+import org.apache.ofbiz.service.ModelService;
+import org.apache.ofbiz.service.ServiceUtil;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package org.ofbiz.ebaystore;
+package org.apache.ofbiz.ebaystore;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -30,27 +30,27 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.ofbiz.base.config.GenericConfigException;
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.UtilDateTime;
-import org.ofbiz.base.util.UtilGenerics;
-import org.ofbiz.base.util.UtilMisc;
-import org.ofbiz.base.util.UtilProperties;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.ebay.EbayHelper;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericEntityException;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.serialize.SerializeException;
-import org.ofbiz.entity.serialize.XmlSerializer;
-import org.ofbiz.entity.util.EntityQuery;
-import org.ofbiz.service.DispatchContext;
-import org.ofbiz.service.GenericServiceException;
-import org.ofbiz.service.LocalDispatcher;
-import org.ofbiz.service.ServiceUtil;
-import org.ofbiz.service.calendar.RecurrenceInfo;
-import org.ofbiz.service.calendar.RecurrenceInfoException;
-import org.ofbiz.service.config.ServiceConfigUtil;
+import org.apache.ofbiz.base.config.GenericConfigException;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.UtilDateTime;
+import org.apache.ofbiz.base.util.UtilGenerics;
+import org.apache.ofbiz.base.util.UtilMisc;
+import org.apache.ofbiz.base.util.UtilProperties;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.ebay.EbayHelper;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericEntityException;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.serialize.SerializeException;
+import org.apache.ofbiz.entity.serialize.XmlSerializer;
+import org.apache.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.service.DispatchContext;
+import org.apache.ofbiz.service.GenericServiceException;
+import org.apache.ofbiz.service.LocalDispatcher;
+import org.apache.ofbiz.service.ServiceUtil;
+import org.apache.ofbiz.service.calendar.RecurrenceInfo;
+import org.apache.ofbiz.service.calendar.RecurrenceInfoException;
+import org.apache.ofbiz.service.config.ServiceConfigUtil;
 
 import com.ebay.sdk.ApiAccount;
 import com.ebay.sdk.ApiContext;

@@ -16,15 +16,15 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.ofbiz.ebaystore;
+package org.apache.ofbiz.ebaystore;
 
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.service.DispatchContext;
-import org.ofbiz.service.ServiceUtil;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.service.DispatchContext;
+import org.apache.ofbiz.service.ServiceUtil;
 
 import com.ebay.sdk.ApiContext;
 import com.ebay.sdk.call.GetUserCall;

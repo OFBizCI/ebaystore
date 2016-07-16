@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.ofbiz.ebaystore;
+package org.apache.ofbiz.ebaystore;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -24,8 +24,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.UtilGenerics;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.UtilGenerics;
 
 import com.ebay.sdk.ApiContext;
 import com.ebay.sdk.ApiException;

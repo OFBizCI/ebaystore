@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.ofbiz.ebaystore;
+package org.apache.ofbiz.ebaystore;
 
 import java.util.HashMap;
 import java.util.LinkedList;

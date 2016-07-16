@@ -16,19 +16,19 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.ofbiz.ebaystore;
+package org.apache.ofbiz.ebaystore;
 
-import org.ofbiz.base.util.UtilDateTime;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.base.util.UtilDateTime;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.util.EntityQuery;
 
 import java.util.*;
 
-import org.ofbiz.service.DispatchContext;
-import org.ofbiz.service.LocalDispatcher;
-import org.ofbiz.service.ServiceUtil;
+import org.apache.ofbiz.service.DispatchContext;
+import org.apache.ofbiz.service.LocalDispatcher;
+import org.apache.ofbiz.service.ServiceUtil;
 
 import com.ebay.sdk.ApiContext;
 import com.ebay.sdk.ApiException;
